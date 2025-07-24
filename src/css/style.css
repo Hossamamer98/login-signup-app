@@ -1,0 +1,44 @@
+:root {
+  --main-color: #0a246a;
+}
+
+body {
+  background-color: #f4f6fa;
+  font-family: "Segoe UI", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  background-color: #f4f6fa;
+}
+
+.card {
+  border: none;
+  border-radius: 14px;
+}
+
+.form-title {
+  color: var(--main-color);
+  font-weight: 600;
+}
+
+.btn-primary {
+  background-color: var(--main-color);
+  border-color: var(--main-color);
+}
+
+.btn-primary:hover {
+  background-color: #081d56;
+  border-color: #081d56;
+}
+
+.btn-link {
+  color: var(--main-color);
+  font-weight: 500;
+}
+
+.btn-link:hover {
+  text-decoration: underline;
+  color: #081d56;
+}
