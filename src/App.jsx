@@ -30,7 +30,7 @@ const App = () => {
               placeholder="Enter email"
             />
           </div>
-          <div className="mb-3">
+          <div className="mb-1">
             <label className="form-label">Password</label>
             <input
               type="password"
@@ -38,6 +38,16 @@ const App = () => {
               placeholder="Password"
             />
           </div>
+          {isLogin && (
+            <div className="text-end mb-3">
+              <button
+                type="button"
+                className="btn btn-link forget-link"
+              >
+                Forget Password?
+              </button>
+            </div>
+          )}
           <button type="submit" className="btn btn-primary w-100">
             {isLogin ? 'Login' : 'Sign Up'}
           </button>

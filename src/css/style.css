@@ -42,3 +42,16 @@ body {
   text-decoration: underline;
   color: #081d56;
 }
+
+.forget-link {
+  font-size: 0.85rem;
+  font-weight: 500;
+  padding: 0;
+  color: var(--main-color);
+  text-decoration: none;
+}
+
+.forget-link:hover {
+  text-decoration: underline;
+  color: #081d56;
+}
